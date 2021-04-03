@@ -49,11 +49,11 @@ and the op code could tell us if the address is an expected CRYPTO WALLET or if 
 - @T2A Okay, I'm all aboard on this idea as well. To take this a step further we could possibly increase adoption by reserving the top 500 companies global names and saving them for the TLD, we can also run the TLD of "reddit" temporarily and run a script where everyones reddit usernames auto reserves a subdomain under the TLD reddit and its connected to their username. The top 500 companies and in this strategy it would include reddit, we'd offer them their tokens first over a set time period free but as you said, TLD's are pledged to nodes so they'd have to run a node. BOOM . 
 - -*Additional idea*: we could also put a TTL (Time to live) on the tokens not pledges to a node. If after a set period say a month or 90 days who knows, the token will be burned and name will be available to the registry again. 
 
-#####QUESTIONS
+##### QUESTIONS
 T2A to Gmiasmo 
 Do we want to be the central 
 
-######**TASKS**
+###### **TASKS**
 SECURE TLDS
 [] IOTA
 [] INS
@@ -67,3 +67,6 @@ Things to figure out
 [] Onboarding New members
 [] Agreement of INS/CNS MISSION, TEAM, RESPONSIBILITY, PURPOSE, COMPENSATION FOR MEMBERS, AND WHATEVER ELSE IS IMPORTANT FOR A TEAM
 [] We could become a DAO Decentralized Autonmous Organization
+
+######## Security Concerns
+Although blockchains are meant to be open a unique problem arises when seed or identity information is targeted to a specific online identity. This puts a person at risk to social engineering schemes. For instance, if an individual is posts their INS name and individuals can directly see the seed, they know they can target this specific INS name, and see the funds essentially in this account. This isn't exactly a problem right now as people don't post their seeds on untrusted sources often or in public but eventually as crpyto becomes mainstream, knowing your friends identity and then essentially being able to see their bank account is less attractive.

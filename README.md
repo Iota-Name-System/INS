@@ -43,17 +43,17 @@ and the op code could tell us if the address is an expected CRYPTO WALLET or if 
 @gmiasmo: You are right, flexibility is key but that can be achieved by an adress book or mappings inside the wallet itself. Architecture-wise we NEED a hieracrhical system in my opinion. What kind of separator we use is basically free to choose, but the standard is to use a "." . jon@support@microsoft@iota looks weird imo. For the same reason, I would stick to to the top-down equals right-to-left convention.
 
 @Ticket2Andromeda You're right, absolutely right. It will allow us to remain flexible and focus on optimizing or improving currently existing systems such as ENS. Additionally it gives us the support to host unstoppable domains. So now we should be looking to secure at least unofficially the TLDS of IOTA and CNS and INS. Definitely a fan of allowing a if "@" then add ".iota/ins/cns/" 
-## Design ideas
+##### Design ideas
 
 - *Idea to counter squatting*: Every top-level domain needs to be pledged to a running node, otherwise another user has the right to buy it from the owner for his purchasing price. This guarantees that people are not simply buying up domain names with no intention of ever using them and legit businesses have another incentive to run a node. Sublevel domains can be assigned to wallets without running a node. Imo this is an organic analogy to how it is done in the web.If you run a toplevel domain, you also have to host (or rent) servers. If you are a private person only looking to connect your wallet, a business could offer its toplevel domain and you could have a sublevel domain there without running a node. Similar to email. You open an account at gmail, using their servers as me@gmail.com. The private user does not own gmail.com but gmail does the hosting. Economic incentives in the iota network could be pledging mana, ads in firefly, small fees.....similar to what is done currently with mail providers. 
 - @T2A Okay, I'm all aboard on this idea as well. To take this a step further we could possibly increase adoption by reserving the top 500 companies global names and saving them for the TLD, we can also run the TLD of "reddit" temporarily and run a script where everyones reddit usernames auto reserves a subdomain under the TLD reddit and its connected to their username. The top 500 companies and in this strategy it would include reddit, we'd offer them their tokens first over a set time period free but as you said, TLD's are pledged to nodes so they'd have to run a node. BOOM . 
 - -*Additional idea*: we could also put a TTL (Time to live) on the tokens not pledges to a node. If after a set period say a month or 90 days who knows, the token will be burned and name will be available to the registry again. 
 
-##QUESTIONS
+#####QUESTIONS
 T2A to Gmiasmo 
 Do we want to be the central 
 
-##**TASKS**
+######**TASKS**
 SECURE TLDS
 [] IOTA
 [] INS
